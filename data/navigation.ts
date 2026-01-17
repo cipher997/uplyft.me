@@ -27,8 +27,8 @@ export const navigation: NavItem[] = [
     label: "About Us",
     href: "/#about",
   },
-  // {
-  //   label: "Testimonials",
-  //   href: "/#testimonials",
-  // },
+  {
+    label: "Testimonials",
+    href: "/#testimonials",
+  },
 ];
