@@ -1,11 +1,12 @@
 export type Stat = {
-  value: string;
+  value: number;
+  suffix?: string;
   label: string;
 };
 
 export const stats: Stat[] = [
-  { value: "3+", label: "Years Experience" },
-  { value: "400+", label: "Happy Customers" },
-  { value: "92+", label: "Projects Completed" },
-  { value: "2+", label: "Awards Achievement" },
+  { value: 2, suffix: "+", label: "Years Experience" },
+  { value: 11, suffix: "+", label: "Happy Customers" },
+  { value: 6, suffix: "+", label: "Projects Completed" },
+  { value: 2, suffix: "+", label: "Awards Achievement" },
 ];
