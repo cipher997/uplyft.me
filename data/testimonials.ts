@@ -49,14 +49,14 @@ export const testimonials: Testimonial[] = [
     image: "/images/testimonials/weshatton.jpg",
     rating: 5,
   },
-  // {
-  //   id: "5",
-  //   name: "Business Client",
-  //   role: "Marketing Lead",
-  //   company: "United States",
-  //   quote:
-  //     "Fahad is incredible to work with. He stays involved until the very end and beyond. His digital marketing strategies and SEO expertise helped take our business to the next level.",
-  //   image: "/images/testimonials/client.jpg",
-  //   rating: 5,
-  // },
+  {
+    id: "5",
+    name: "Business Client",
+    role: "Marketing Lead",
+    company: "United States",
+    quote:
+      "Fahad is incredible to work with. He stays involved until the very end and beyond. His digital marketing strategies and SEO expertise helped take our business to the next level.",
+    image: "/images/testimonials/client.jpg",
+    rating: 5,
+  },
 ];

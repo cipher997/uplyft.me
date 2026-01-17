@@ -15,7 +15,7 @@ export function HeroContent() {
       </h1>
 
       {/* Description */}
-      <p className="mt-6 max-w-xl text-muted">
+      <p className="mt-6 max-w-xl leading-tight leading-relaxed">
         We provide innovative IT solutions and services that help businesses
         scale, stay secure, and succeed in the digital era.
       </p>
@@ -23,9 +23,9 @@ export function HeroContent() {
       {/* CTA */}
       <div className="mt-8 flex flex-wrap gap-4">
         <Button href="/contact">Get Started</Button>
-        <Button href="/services" variant="outline">
+        {/* <Button href="/services" variant="outline">
           Our Services
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

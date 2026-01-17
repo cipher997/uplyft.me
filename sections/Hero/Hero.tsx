@@ -3,15 +3,22 @@ import { HeroContent } from "./HeroContent";
 
 export function Hero() {
   return (
-    <section className="bg-soft">
-      <Container className="grid min-h-[80vh] grid-cols-1 items-center gap-12 py-20 md:grid-cols-2">
-        <HeroContent />
+    <section className="relative min-h-[90vh] overflow-hidden">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: "url('/hero-main.jpg')",
+        }}
+      />
 
-        {/* Right Side (Image placeholder for now) */}
-        <div className="flex justify-center">
-          <div className="h-[420px] w-full max-w-md rounded-lg bg-white border border-default flex items-center justify-center text-muted">
-            Hero Image
-          </div>
+      {/* Overlay (for readability & mood) */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/20" />
+
+      {/* Content */}
+      <Container className="relative z-10 flex min-h-[90vh] items-center">
+        <div className="max-w-2xl text-white">
+          <HeroContent />
         </div>
       </Container>
     </section>
