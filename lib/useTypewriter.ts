@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 
 export function useTypewriter(
   words: string[],
-  typingSpeed = 80,
-  deletingSpeed = 40,
+  typingSpeed = 70,
+  deletingSpeed = 35,
   pauseTime = 1000
 ) {
   const [text, setText] = useState("");
