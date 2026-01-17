@@ -22,7 +22,7 @@ export function HeroContent() {
 
       {/* CTA */}
       <div className="mt-8 flex flex-wrap gap-4">
-        <Button href="/contact">Get Started</Button>
+        <Button href="/#contact">Get Started</Button>
         {/* <Button href="/services" variant="outline">
           Our Services
         </Button> */}
