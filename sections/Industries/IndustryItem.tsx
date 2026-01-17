@@ -13,7 +13,7 @@ export function IndustryItem({ industry }: IndustryItemProps) {
       className="flex items-center justify-between rounded-md border border-default bg-white px-5 py-4 text-sm font-medium hover:bg-soft"
     >
       <span>{industry.name}</span>
-      <span className="text-muted"><ArrowRight size={16} /></span>
+      {/* <span className="text-muted"><ArrowRight size={16} /></span> */}
     </Link>
   );
 }
