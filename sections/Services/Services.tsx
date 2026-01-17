@@ -4,7 +4,7 @@ import { ServiceCard } from "./ServiceCard";
 
 export function Services() {
   return (
-    <section className="bg-white py-20">
+    <section id="services" className="bg-white py-20">
       <Container>
         {/* Section Header */}
         <div className="mb-12 max-w-2xl">

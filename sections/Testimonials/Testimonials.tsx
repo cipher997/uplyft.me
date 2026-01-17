@@ -6,7 +6,7 @@ export function Testimonials() {
   const items = [...testimonials, ...testimonials];
 
   return (
-    <section className="bg-soft py-20 overflow-hidden">
+    <section id="testimonials" className="bg-soft py-20 overflow-hidden">
       <Container>
         {/* Header */}
         <div className="mb-12 max-w-2xl">

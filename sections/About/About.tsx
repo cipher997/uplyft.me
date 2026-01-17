@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/Button";
 
 export function About() {
   return (
-    <section className="bg-soft py-20">
+    <section id="about" className="bg-soft py-20">
       <Container className="grid gap-12 md:grid-cols-2 md:items-center">
         {/* Left Content */}
         <div>

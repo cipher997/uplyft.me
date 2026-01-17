@@ -3,7 +3,7 @@ import { ContactForm } from "./ContactForm";
 
 export function Contact() {
   return (
-    <section className="bg-gradient-custom py-20">
+    <section id="contact" className="bg-gradient-custom py-20">
       <Container className="grid gap-12 md:grid-cols-2 md:items-center">
         {/* Left Content */}
         <div>

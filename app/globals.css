@@ -4,6 +4,10 @@
    Design Tokens
    ========================= */
 
+   html {
+  scroll-behavior: smooth;
+}
+
 :root {
   /* Brand Colors */
   --color-primary: #2563eb;      /* Blue */
