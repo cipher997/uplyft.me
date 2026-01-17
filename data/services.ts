@@ -49,7 +49,7 @@ export const services: Service[] = [
   },
   {
     id: "software-dev",
-    title: "Software Development",
+    title: "Custom App development",
     description:
       "Custom software development services built to solve complex business challenges. We deliver secure, scalable, and high-quality software solutions tailored to your workflows.",
     href: "/services/software-development",
