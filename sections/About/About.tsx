@@ -29,9 +29,9 @@ export function About() {
           </p>
 
           <div className="mt-8">
-            <Button href="/company/about" variant="outline">
+            {/* <Button href="/company/about" variant="outline">
               Learn More About Us
-            </Button>
+            </Button> */}
           </div>
         </div>
 
