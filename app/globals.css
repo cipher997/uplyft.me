@@ -96,3 +96,46 @@ a, button {
   transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
 }
 
+/* ===== Testimonial Carousel ===== */
+
+.testimonial-slide {
+  width: 33.3333%;
+  flex-shrink: 0;
+  padding: 0 12px;
+}
+
+.testimonial-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 45s linear infinite;
+}
+
+
+/* Pause animation on hover */
+.testimonial-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive tweaks */
+@media (max-width: 1024px) {
+  .testimonial-slide {
+    width: 320px;
+  }
+}
+
+@media (max-width: 640px) {
+  .testimonial-slide {
+    width: 280px;
+  }
+}
+
+
