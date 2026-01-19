@@ -13,7 +13,7 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <a
-          // href="#top"
+          href="#top"
           className="group flex items-center gap-2 text-xl font-bold uppercase tracking-wide"
         >
           <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/10 text-primary transition group-hover:scale-110">
