@@ -39,7 +39,7 @@ export function HeroContent() {
 
       {/* CTA */}
       <div className="mt-10 flex flex-wrap gap-4">
-        <Button href="/#contact" className="bg-primary text-white">
+        <Button href="#contact" className="bg-primary text-white">
           Get Started
         </Button>
       </div>

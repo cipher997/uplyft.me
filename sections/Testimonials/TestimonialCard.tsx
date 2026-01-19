@@ -13,9 +13,9 @@ export function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
       </div>
 
       <div className="mt-6 flex items-center gap-4">
-        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-soft text-xs text-muted">
+        {/* <div className="flex h-12 w-12 items-center justify-center rounded-full bg-soft text-xs text-muted">
           IMG
-        </div>
+        </div> */}
 
         <div>
           <div className="text-sm font-semibold">
