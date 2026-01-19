@@ -12,7 +12,7 @@ export function Navbar() {
     <header className="fixed top-0 z-50 w-full border-b border-default bg-white/80 backdrop-blur-md shadow-sm">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <Link
+        <a
           href="#top"
           className="group flex items-center gap-2 text-xl font-bold uppercase tracking-wide"
         >
@@ -22,7 +22,7 @@ export function Navbar() {
           <span className="relative">
             Uplyft
           </span>
-        </Link>
+        </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-10">
