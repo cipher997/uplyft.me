@@ -72,13 +72,13 @@ function isLinkItem(
 function DesktopNavItem({ item }: NavItemProps) {
   if (isLinkItem(item)) {
     return (
-      <Link
+      <a
         href={item.href}
         className="group relative text-sm font-medium text-gray-700 transition hover:text-primary"
       >
         {item.label}
         <span className="absolute -bottom-1 left-0 h-[2px] w-0 bg-primary transition-all group-hover:w-full" />
-      </Link>
+      </a>
     );
   }
 

@@ -8,7 +8,7 @@ export function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('./hero-main.jpg')",
+          backgroundImage: "url('/hero-main.jpg')",
         }}
       />
 
